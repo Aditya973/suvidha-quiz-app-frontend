@@ -1,0 +1,1 @@
+export const SERVER_URL = 'https://suvidha-quiz-application.onrender.com/'

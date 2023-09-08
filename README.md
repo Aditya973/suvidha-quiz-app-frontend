@@ -1,8 +1,7 @@
 ## Quiz App
 A quiz application similar to trivia built with React, Javascript and CSS
 
-## Live Link
-[`https://aditya973.github.io/suvidha-quiz-app-frontend/`]
+## [Live Link](https://aditya973.github.io/suvidha-quiz-app-frontend/)
 
 ## Installation and Setup Instructions
 Clone down this repository. You will need node and npm installed globally on your machine.
@@ -17,5 +16,5 @@ To Start Server:
 
 To Visit App:
 
-Open [`http://localhost:3000`]
+Open [http://localhost:3000]
 

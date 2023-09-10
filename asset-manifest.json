@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/suvidha-quiz-app-frontend/static/css/main.49fc9946.css",
-    "main.js": "/suvidha-quiz-app-frontend/static/js/main.e6546dea.js",
+    "main.css": "/suvidha-quiz-app-frontend/static/css/main.61c04fbf.css",
+    "main.js": "/suvidha-quiz-app-frontend/static/js/main.3b40cc42.js",
     "index.html": "/suvidha-quiz-app-frontend/index.html",
-    "main.49fc9946.css.map": "/suvidha-quiz-app-frontend/static/css/main.49fc9946.css.map",
-    "main.e6546dea.js.map": "/suvidha-quiz-app-frontend/static/js/main.e6546dea.js.map"
+    "main.61c04fbf.css.map": "/suvidha-quiz-app-frontend/static/css/main.61c04fbf.css.map",
+    "main.3b40cc42.js.map": "/suvidha-quiz-app-frontend/static/js/main.3b40cc42.js.map"
   },
   "entrypoints": [
-    "static/css/main.49fc9946.css",
-    "static/js/main.e6546dea.js"
+    "static/css/main.61c04fbf.css",
+    "static/js/main.3b40cc42.js"
   ]
 }

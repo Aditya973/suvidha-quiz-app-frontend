@@ -11,9 +11,8 @@ const Container = styled.div({
 });
 
 const QuizCard = styled.div({
-  width: "50%",
+  width: "75%",
   height: "40%",
-  // border: '2px solid black',
   padding: "0px 12px",
 });
 
@@ -42,6 +41,10 @@ const BottomLayout = styled.div`
   flex-wrap: wrap;
   gap: 5px;
   align-items: center;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 `;
 
 function QuizBox({ current, next }) {

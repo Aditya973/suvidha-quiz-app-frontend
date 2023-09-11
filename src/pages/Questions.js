@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
@@ -78,13 +78,13 @@ function Questions() {
   return (
     <>
       <h1 className='text-center p-3 text-3xl '>List of Questions</h1>
-      <ul>
+      <ul className='w-screen p-0'>
         {
           quizzes?
             quizzes.map((question)=>{
               return (
                 <li key={question._id} className="my-3 text-center">
-                  <Link to={'/questions/' + question._id} className = " no-underline bg-gray-200 px-3 py-[5px] rounded">
+                  <Link to={'/questions/' + question._id} className = " no-underline px-3 py-[5px] rounded text-neutral-950 hover:text-blue-500 duration-200">
                     {question.description}
                   </Link>
                 </li>

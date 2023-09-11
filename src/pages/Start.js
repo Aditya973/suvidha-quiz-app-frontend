@@ -36,12 +36,12 @@ function Start() {
         </div>
         <div className="flex flex-row justify-center items-center h-full gap-5">
             <Link to={'/quiz'}>
-            <button className="bg-orange-500 hover:bg-orange-700 px-3 py-2 rounded border-0 text-white text-xl">Start Quiz</button>
+            <button className="bg-orange-500 hover:bg-orange-700 px-3 py-2 rounded border-0 text-white text-xl duration-200">Start Quiz</button>
             </Link>
             {
                 admin &&
                 <Link to={'/questions'}>
-                <button className="bg-yellow-500 hover:bg-yellow-700 px-3 py-2 rounded border-0 text-white text-xl">View Questions</button>
+                <button className="bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded border-0 text-white text-xl duration-200">View Questions</button>
                 </Link> 
             }
         </div>
